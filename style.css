@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0 auto;
+    font-family: cursive;
+    font-weight: bolder;
+}
+img {
+    border-radius: 50%;
+}
+#profileBox{
+    width: 500px;
+    height: 400px;
+}
+
+.blackBars{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+}
+
+#blueBar{
+    margin-top: 100px;
+    background-color: rgb(0, 160, 160);
+    height: 100px;
+}
+
+.greyBorders {
+    width: 494px;
+    height: 250px;
+    border-left: 3px solid rgb(174, 172, 172);
+    border-right: 3px solid rgb(174, 172, 172);
+    border-bottom: 3px solid rgb(174, 172, 172);
+}
+
+#profilePic img{
+    border: 5px solid rgb(174, 172, 172);
+    margin-left: 30px;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    transform: translateY(-65px);
+}
+
+#education .mainInfo {
+    width: fit-content;
+    height: fit-content;
+}
+
+#conX_requests .mainInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    margin-left: 20px;
+    transform: translateY(-60px);
+}
+#name p{
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: cursive;
+    font-style: bold;
+    font-size: 30px;
+}
+
+#location p img {
+    margin-right: 10px;
+    margin-left:20px ;
+    width: auto;
+    height: 20px;
+}
+#location{
+    transform: translateY(-70px);
+}
+#location p{
+    transform: translateY(30px);
+    margin-top: -15px;
+    margin-left: 12px;
+    font-size: 24px;
+}
+
+#experience{
+    margin-left:20px ;
+    transform: translateY(-75px);
+}
+#experience p{
+    transform: translateY(55px);
+    margin-top: -14px;
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+#profileBox .bottomLink a img {
+    margin-right: 10px;
+    margin-left:30px ;
+    width: auto;
+    height: 20px;
+    transform: translateY(5px);
+}
+#profileBox .bottomLink{
+    transform: translateY(-15px);
+}
+
+#education .mainInfo{
+    margin-left: 20px;
+}
